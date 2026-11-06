@@ -268,7 +268,7 @@ try:
         job_search,
         status_by_gender
     )
-    = load_survey()
+load_survey()
 except Exception as error:
     st.error(
         "The dashboard could not load the data. "
