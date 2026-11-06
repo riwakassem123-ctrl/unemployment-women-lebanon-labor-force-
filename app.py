@@ -269,7 +269,7 @@ try:
         status_by_gender
     )
 load_survey()
-except Exception as error:
+ except Exception as error:
     st.error(
         "The dashboard could not load the data. "
         "Please check the Excel filename and sheet structure."
